@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+body {
+    font-family: Verdana;
+    background-color: rgb(208, 203, 221);
+    overflow-x: hidden; 
+    width: 1920px;
+    margin: auto;
+}
+
 .ul1 {
     list-style-type: none;
     word-spacing: 10px;
