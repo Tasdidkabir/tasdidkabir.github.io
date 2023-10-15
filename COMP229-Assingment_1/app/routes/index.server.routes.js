@@ -24,4 +24,9 @@ router.get('/services', function(req, res, next) {
   res.render('services', { title: 'Services' });
 });
 
+router.post('/submit', (req, res) => {
+  const { fname, lname, email, phone } = req.body;
+  res.render('submit', { title: 'Thank You' });
+});
+
 module.exports = router;
