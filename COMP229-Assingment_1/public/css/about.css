@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    max-width: 200;
+  }
+
+  .container {
+    width: 1380px;
+    display: flex;
+    flex-direction: row; 
+    margin: auto;
+  }
+  
+  .box-1 {
+    width: 580px;
+    height: 600px;
+    background-color: #ccc;
+    margin: 10px;
+  }
+  
+  .box-2 {
+    width: 800px;
+    height: 480px;
+    padding: 40px;
+    padding-top: 80px;
+    background-color: #ccc;
+    margin: 10px;
+    font: italic bold 20px/1.5 'Ink Free';
+  }
+  

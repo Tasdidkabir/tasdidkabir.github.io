@@ -1,0 +1,31 @@
+<%- include ('partials/navbar.ejs') %>
+
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/home.css" rel="stylesheet">
+        <title>
+            <%= title %>
+        </title>
+    </head>
+
+    <body>
+        <div style="margin: auto; margin-top: 2.5%;">
+            <p class="text-container"><span style="font-size: 30px;">Welcome to my Home Page</span><br><br><span
+                    style="font-style: italic;">As a software engineer and web developer,<br> I'm currently focused on
+                    building responsive and<br> user-friendly web applications. I'm actively<br> involved in designing
+                    and developing robust backend<br> systems and integrating them seamlessly with dynamic<br> front-end
+                    interfaces. My mission is<br> to create efficient and scalable solutions by<br> staying up-to-date
+                    with the latest technologies<br> and best practices in the industry.<br> I thrive on solving complex
+                    problems, optimizing<br> performance, and delivering high-quality software<br> products that meet
+                    user needs and exceed expectations.</span></p>
+            <img src="img/home_background.jpg" width="1920px" height="800px" alt="background">
+            <a href="/about"><button class="button">More About Me</button></a>
+            <%- include('partials/footer.ejs') %>
+        </div>
+    </body>
+
+    </html>

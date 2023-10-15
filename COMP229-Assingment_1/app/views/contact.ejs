@@ -1,0 +1,43 @@
+<%- include ('partials/navbar.ejs') %>
+
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/contact.css" rel="stylesheet">
+        <title>
+            <%= title %>
+        </title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="box">
+                <p style="text-align: center; font: 40px bold italic;">My Contact Information<br><span
+                        style="font-size: 25px;">Name: Tasdid Kabir Adil<br>Email: adil@yahoo.com<br>Phone:+1
+                        416-839-1230<br>Address: 239 Queen St, Toronto</span></p>
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="/">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Your first name">
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Your last name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email address">
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div style="margin-top: 60px;"><%- include('partials/footer.ejs') %></div>
+    </body>
+
+    </html>
